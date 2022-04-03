@@ -10,7 +10,6 @@ export default function Footer() {
         <div className="footer-top-container">
           <div className="footer-section">
             <h1>Patrick Wieland</h1>
-            <p>Full time nerd</p>
             <ul className="ul-social">
               <li>
                 <FaGithub />
