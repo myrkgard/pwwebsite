@@ -1,0 +1,39 @@
+.ant-container {
+  width: 100%;
+  flex-wrap: wrap-reverse;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ant-text {
+  color: white;
+  width: 40%;
+  padding: 1rem;
+
+  h1 {
+    margin-bottom: 3rem;
+  }
+}
+
+.ant-image {
+  width: 60%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.the-ant-image {
+  max-height: 100vh;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .ant-text {
+    width: 100%;
+  }
+
+  .ant-image {
+    width: 100%;
+  }
+}
